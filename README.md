@@ -24,7 +24,7 @@ dependencies {
 }
 ```
 
-### XML Layout (Circle Progressbar)
+### XML Layout
 ```xml
 <me.sudodios.particlerain.ParticleRainView
         android:id="@+id/particleRainView"
