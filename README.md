@@ -35,3 +35,21 @@ dependencies {
         app:prv_speed="0.5"
         android:layout_height="match_parent"/>
 ```
+
+### Kotlin
+```kotlin
+binding.particleRainView.apply {
+
+      //set color of particles
+      color = Color.WHITE
+
+      //max count to draw particles
+      maxCount = 100
+
+      //speed of rain
+      speed = 0.5f
+
+      //drawable res ID to draw on particles view
+      setParticleDrawableResId(me.sudodios.particlerain.R.drawable.snow)
+}
+```
