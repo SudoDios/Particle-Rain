@@ -7,6 +7,8 @@ Particle-Rain is library to rain your drawable on android
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
 [![](https://jitpack.io/v/SudoDios/Particle-Rain.svg)](https://jitpack.io/#SudoDios/Particle-Rain)
 
+<img src="https://github.com/SudoDios/Particle-Rain/raw/master/screen_shot.jpg" width="144" height="321"/>
+
 ### How to use
 Step 1 : Add it in your root build.gradle at the end of repositories:
 ```gradle
