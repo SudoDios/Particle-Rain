@@ -11,7 +11,41 @@
         android:layout_width="match_parent"
         app:prv_color="#fffafa"
         app:prv_maxCount="300"
-        app:prv_speed="0.04"
         android:layout_height="match_parent"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/laySeeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_gravity="bottom">
+
+        <me.sudodios.particlerainapp.ColorSeekBar
+            android:id="@+id/colorSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/speedSeekbar"
+            android:layout_width="match_parent"
+            android:layout_marginTop="22dp"
+            android:stepSize="0.01"
+            android:valueFrom="0.02"
+            android:value="1"
+            android:valueTo="1.0"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/maxCountSeekbar"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:stepSize="1.0"
+            android:valueFrom="20.0"
+            android:value="100.0"
+            android:valueTo="300.0"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
