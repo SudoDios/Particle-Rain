@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="MyStyle" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">#C75FFF</item>
+        <item name="colorAccent">#C75FFF</item>
+        <item name="colorPrimaryDark">#0B2335</item>
+
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>

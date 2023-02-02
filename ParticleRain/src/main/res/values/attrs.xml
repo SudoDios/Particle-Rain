@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ParticleRainView">
+        <attr name="prv_res" format="reference"/>
+        <attr name="prv_color" format="color"/>
+        <attr name="prv_maxCount" format="integer"/>
+        <attr name="prv_speed" format="float"/>
+    </declare-styleable>
+</resources>
