@@ -53,3 +53,9 @@ binding.particleRainView.apply {
       setParticleDrawableResId(me.sudodios.particlerain.R.drawable.snow)
 }
 ```
+
+### Coming soon
+```
+1 - Support multiple drawable
+2 - Support multiple colors
+```
