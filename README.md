@@ -23,3 +23,15 @@ dependencies {
 	implementation 'com.github.SudoDios:Particle-Rain:1.0.1'
 }
 ```
+
+### XML Layout (Circle Progressbar)
+```xml
+<me.sudodios.particlerain.ParticleRainView
+        android:id="@+id/particleRainView"
+        android:layout_width="match_parent"
+        app:prv_color="#fffafa"
+        app:prv_maxCount="300"
+        app:prv_res="@drawable/snow"
+        app:prv_speed="0.5"
+        android:layout_height="match_parent"/>
+```
