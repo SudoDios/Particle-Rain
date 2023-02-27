@@ -1,4 +1,4 @@
-<img src="https://github.com/SudoDios/Particle-Rain/raw/master/app/src/main/ic_launcher-playstore.png" alt="drawing" width="160"/>
+https://github.com/DrKLO/Telegram<img src="https://github.com/SudoDios/Particle-Rain/raw/master/app/src/main/ic_launcher-playstore.png" alt="drawing" width="160"/>
 
 # Particle-Rain
 Particle-Rain is library to rain your drawable on android
@@ -61,3 +61,4 @@ binding.particleRainView.apply {
 1 - Support multiple drawable
 2 - Support multiple colors
 ```
+reference to main code [Telegram](https://github.com/DrKLO/Telegram)
